@@ -1,4 +1,10 @@
 .toolbar{
     background-color: #1f2937;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbar div{
+    flex: 1;
 }
