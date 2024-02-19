@@ -1,10 +1,117 @@
-.toolbar{
-    background-color: #1f2937;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
+body {
+    margin: 0;
 }
 
-.toolbar div{
-    flex: 1;
+.section-1 {
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #1f2937;
+    color: aliceblue;
+
 }
+
+.header {
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right-links ul {
+    display:flex;
+    list-style-type: none;
+}
+
+.right-links ul li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.right-links ul li:last-of-type {
+    padding-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.welcome {
+    display: flex;
+}
+
+.welcome-text, .welcome-img {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    padding: 150px;
+}
+
+.welcome-img img {
+    width: 700px;
+    height: 300px;
+}
+
+.welcome-text button {
+    background-color: #3882F6;
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.image-and-text img {
+    height: 300px;
+    border-radius: 10%;
+}
+
+.image-and-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 250px 80px 250px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 80px 250px 80px 250px;
+}
+
+.text-2 {
+    display: flex;
+    justify-content: end;
+    font-size: 38px;
+}
+
+.text-1 {
+    font-style: italic;
+}
+
+.section-4 {
+    display: flex;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 80px 350px 80px 350px;
+}
+
+.texts-1-buttons button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+/* .texts-1 {
+    display: flex;
+}
+ */
